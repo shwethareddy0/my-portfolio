@@ -1,6 +1,7 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  background-color: #ededf6;
 }
 :root {
   --webkit-appearance: none;
@@ -68,24 +69,25 @@ header a:after {
 }
 .container1 {
   display: flex;
-  width: 80%;
+  width: 60%;
   height: 100px;
   margin-left: 50px;
   margin-right: 50px;
 }
 .title {
   text-align: right;
-  width: 100px;
+  width: 150px;
   font-size: 50px;
   padding: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 50px;
   margin-right: 100px;
+  border-right: 5px solid black;
 }
 
 #box1 {
   display: flex;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 80%px;
   height: 100px;
 }
@@ -94,7 +96,8 @@ header a:after {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  margin-left: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
   align-items: center;
   margin-right: 40px;
 }
@@ -104,7 +107,7 @@ header a:after {
   margin-top: 20px;
   width: 59%;
   height: 200px;
-  background-color: gray;
+  background-image: url(https://image.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg);
   border: 5px solid var(--primary-color);
 }
 
