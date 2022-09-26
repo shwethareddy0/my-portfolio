@@ -112,7 +112,7 @@ header a:after {
 }
 
 #box3-table {
-  margin-left: 200px;
+  margin-left: 260px;
 }
 .box3 {
   display: flex;
@@ -124,12 +124,32 @@ header a:after {
   border: 5px solid var(--primary-color);
 }
 
+#project1-image {
+  background-image: url(https://www.upgrad.com/blog/wp-content/uploads/2020/09/shutterstock_653127499.jpg);
+  height: 100px;
+  background-size: 100% 100%;
+}
+#project2-image {
+  background-image: url(https://assets.tes.com/content-attachments/s3fs-public/styles/news_article_ml_x2/public/tes-resources-blog-images/tes-resources-captivating-computing-projects_3.jpg?h=a6967b5f&itok=O9aSBP0B);
+  height: 100px;
+  background-size: 100% 100%;
+}
+#project3-image {
+  background-image: url(https://img.lovepik.com/background/20211021/small/lovepik-hand-painted-cloud-computing-background-image_500531886.jpg);
+  height: 100px;
+  background-size: 100% 100%;
+}
+#project4-image {
+  background-image: url(https://cdn.w600.comps.canstockphoto.com/learning-process-vector-clip-art_csp35689117.jpg);
+  height: 100px;
+  background-size: 100% 100%;
+}
 .container3 {
   display: flex;
   width: 80%;
   margin-left: 50px;
   margin-right: 50px;
-  position: absolute;
+
   bottom: 5px;
   margin-top: 50px;
 }
