@@ -50,15 +50,20 @@ header a:after {
   border-width: 0 0 3px;
   border-style: solid;
 }
+#cover-image {
+  background-image: url("https://www.diettechcentral.com/wp-content/uploads/2021/01/DTC-blog-creating-a-portfolio.png");
+  height: 200px;
+  background-size: 100% 100%;
+}
 #subtitle {
   display: flex;
   background-color: var(--primary-color);
   width: 400px;
-  height: 50px;
+  height: 70px;
   color: black;
   float: right;
   margin-right: 50px;
-  margin-top: -70px;
+  margin-top: 100px;
   font-size: 30px;
 }
 .container1 {
