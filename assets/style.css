@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -20,19 +18,20 @@ header {
 h1 {
   background-color: var(--primary-color);
   width: 400px;
-  height: 80%;
+  height: 60%;
   color: black;
   text-align: right;
   padding-top: 20px;
   padding-right: 10px;
+  margin-top: 10px;
 }
 nav {
   float: right;
-  margin-top: -40px;
+  margin-top: -60px;
   margin-right: 35px;
 }
 
-a {
+header a {
   color: var(--primary-color);
   text-decoration-thickness: 2px;
   font-size: 20px;
@@ -40,7 +39,7 @@ a {
   text-decoration: none;
   position: relative;
 }
-a:after {
+header a:after {
   content: "";
 
   width: 100%;
@@ -50,4 +49,91 @@ a:after {
 
   border-width: 0 0 3px;
   border-style: solid;
+}
+#subtitle {
+  display: flex;
+  background-color: var(--primary-color);
+  width: 400px;
+  height: 50px;
+  color: black;
+  float: right;
+  margin-right: 50px;
+  margin-top: -70px;
+  font-size: 30px;
+}
+.container1 {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.title {
+  text-align: right;
+  width: 100px;
+  font-size: 50px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+#box1 {
+  display: flex;
+  margin-top: 20px;
+  width: 80%px;
+  height: 100px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 50px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+#box2 {
+  display: flex;
+  margin-top: 20px;
+  width: 800px;
+  height: 200px;
+
+  background-color: gray;
+  border: 5px solid var(--primary-color);
+}
+
+.box3 {
+  display: flex;
+  margin-top: 20px;
+  width: 400px;
+  height: 100px;
+  margin-left: 200px;
+  background-color: gray;
+  border: 5px solid var(--primary-color);
+}
+
+.container3 {
+  display: flex;
+  width: 80%;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: absolute;
+  bottom: 5px;
+  margin-top: 50px;
+}
+
+#box4 {
+  display: flex;
+  margin-left: 200px;
+
+  position: absolute;
+  bottom: 5px;
+}
+
+footer a {
+  color: black;
+  margin-right: 50px;
+  font-size: 20px;
 }
