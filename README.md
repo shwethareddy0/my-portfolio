@@ -1,16 +1,17 @@
-#My Portfolio
+# My Portfolio
 
 ## Description
 
-My portfolio is about my education, experience and skills.
+My portfolio is about my education, experience ,resume, contact information and skills.
 
 Here is the link to the deployed application
+https://shwethareddy0.github.io/swethap-portfolio/
 
 ### Features
 
 - Fully Responsive
 - Easy to modify
-- Supports HTML5 & CSS
+- Supports HTML5 & CSS 3
 
 ## Table of Contents
 
@@ -58,7 +59,7 @@ Following is a code snippet of the application page.
 ## Technologies Used
 
 - HTML5
-- CSS
+- CSS 3
 - Git
 - GitHub
 - GitHub Pages
