@@ -69,9 +69,9 @@ header a:after {
 }
 .container1 {
   display: flex;
-  width: 60%;
+  width: 80%;
   height: 100px;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 50px;
 }
 .title {
@@ -87,7 +87,7 @@ header a:after {
 #box1 {
   display: flex;
   margin-top: 40px;
-  width: 80%px;
+  width: 80%;
   height: 100px;
 }
 
@@ -95,7 +95,7 @@ header a:after {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  margin-left: 30px;
+  margin-left: 100px;
   margin-top: 30px;
   align-items: center;
   margin-right: 40px;
@@ -103,7 +103,7 @@ header a:after {
 
 #box2 {
   margin-top: 20px;
-  width: 59%;
+  width: 80%;
   height: 200px;
   background-image: url(https://image.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg);
   border: 5px solid var(--primary-color);
@@ -111,31 +111,39 @@ header a:after {
 
 #box3-table {
   margin-left: 260px;
+  width: 100%;
 }
 .box3 {
   display: flex;
   margin-top: 20px;
-  width: 400px;
+  width: 95%;
   height: 100px;
   border: 5px solid var(--primary-color);
 }
 
 #project1-image {
+  background-image: url(https://image.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg);
+  height: 100px;
+  background-size: 200% 130%;
+}
+
+#project2-image {
   background-image: url(https://www.upgrad.com/blog/wp-content/uploads/2020/09/shutterstock_653127499.jpg);
   height: 100px;
   background-size: 100% 100%;
 }
-#project2-image {
+
+#project3-image {
   background-image: url(https://assets.tes.com/content-attachments/s3fs-public/styles/news_article_ml_x2/public/tes-resources-blog-images/tes-resources-captivating-computing-projects_3.jpg?h=a6967b5f&itok=O9aSBP0B);
   height: 100px;
   background-size: 100% 100%;
 }
-#project3-image {
+#project4-image {
   background-image: url(https://img.lovepik.com/background/20211021/small/lovepik-hand-painted-cloud-computing-background-image_500531886.jpg);
   height: 100px;
   background-size: 100% 100%;
 }
-#project4-image {
+#project5-image {
   background-image: url(https://cdn.w600.comps.canstockphoto.com/learning-process-vector-clip-art_csp35689117.jpg);
   height: 100px;
   background-size: 100% 100%;
@@ -144,7 +152,7 @@ header a:after {
   display: flex;
   align-items: center;
   width: 80%;
-  margin-left: 80px;
+  margin-left: 100px;
   margin-right: 50px;
   bottom: 5px;
   margin-top: 50px;
