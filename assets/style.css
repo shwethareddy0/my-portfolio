@@ -14,7 +14,11 @@ header {
   width: 100%;
   padding-top: 10px;
 }
-
+img {
+  margin-top: 27px;
+  margin-left: 60px;
+  border-radius: 40px;
+}
 h1 {
   background-color: var(--primary-color);
   width: 400px;
