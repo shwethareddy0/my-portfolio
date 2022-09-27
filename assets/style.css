@@ -1,7 +1,6 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: rgb(234, 238, 243);
 }
 :root {
   --webkit-appearance: none;
@@ -82,7 +81,6 @@ header a:after {
   margin-top: 10px;
   margin-bottom: 50px;
   margin-right: 100px;
-  border-right: 5px solid black;
 }
 
 #box1 {
@@ -103,7 +101,6 @@ header a:after {
 }
 
 #box2 {
-  display: flex;
   margin-top: 20px;
   width: 59%;
   height: 200px;
@@ -116,11 +113,9 @@ header a:after {
 }
 .box3 {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 20px;
   width: 400px;
   height: 100px;
-  background-color: gray;
   border: 5px solid var(--primary-color);
 }
 
@@ -148,7 +143,7 @@ header a:after {
   display: flex;
   align-items: center;
   width: 80%;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-right: 50px;
   bottom: 5px;
   margin-top: 50px;
@@ -156,7 +151,7 @@ header a:after {
 
 #box4 {
   display: flex;
-  margin-left: 200px;
+  margin-left: 100px;
   bottom: 5px;
 }
 
@@ -164,4 +159,8 @@ footer a {
   color: black;
   margin-right: 50px;
   font-size: 20px;
+}
+
+.boxcard {
+  background-color: var(--primary-color);
 }
