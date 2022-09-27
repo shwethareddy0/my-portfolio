@@ -86,7 +86,7 @@ header a:after {
   margin-left: 100px;
   margin-right: 50px;
 }
-/*this is for the 3 titles - about me,work and contatc me*/
+/*about me,work and contatc me headings*/
 .title {
   text-align: right;
   width: 150px;
@@ -96,14 +96,14 @@ header a:after {
   margin-bottom: 50px;
   margin-right: 100px;
 }
-/* description in p element in about me section*/
+/* about me description in p element*/
 #box1 {
   display: flex;
   margin-top: 40px;
   width: 80%;
   height: 100px;
 }
-/*work- projects section*/
+/*work- applications section*/
 .container2 {
   display: flex;
   flex-wrap: wrap;
@@ -113,7 +113,7 @@ header a:after {
   align-items: center;
   margin-right: 30px;
 }
-
+/* first application image in the work section*/
 #box2 {
   margin-top: 20px;
   width: 80%;
@@ -121,16 +121,16 @@ header a:after {
   background-image: url(https://image.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg);
   border: 5px solid var(--primary-color);
 }
-/* main project in the work section*/
+
 #box3-table {
   margin-left: 260px;
   width: 100%;
 }
-/*spacing the table boxes*/
+/*spacing between the table boxes*/
 td:nth-child(1) {
   padding-right: 20px;
 }
-/*  secondary projects in the work section*/
+/* rest of the applications in the work section*/
 .box3 {
   display: flex;
   margin-top: 20px;
@@ -138,7 +138,7 @@ td:nth-child(1) {
   height: 100px;
   border: 5px solid var(--primary-color);
 }
-/*all projects placeholder images*/
+/*all applications placeholder images*/
 #project1-image {
   background-image: url(https://image.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg);
   height: 100px;
@@ -189,7 +189,7 @@ footer a {
   margin-right: 50px;
   font-size: 20px;
 }
-/*project-main header card*/
+/*first application-header card*/
 .card1 {
   margin-top: 80px;
   text-align: center;
@@ -199,7 +199,7 @@ footer a {
   padding: 10px;
   background-color: var(--primary-color);
 }
-/* project header cards*/
+/* other applications-header card*/
 .card2 {
   margin-top: 10px;
   text-align: center;
