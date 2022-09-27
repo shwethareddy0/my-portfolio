@@ -1,7 +1,7 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #ededf6;
+  background-color: rgb(234, 238, 243);
 }
 :root {
   --webkit-appearance: none;
@@ -146,10 +146,10 @@ header a:after {
 }
 .container3 {
   display: flex;
+  align-items: center;
   width: 80%;
   margin-left: 50px;
   margin-right: 50px;
-
   bottom: 5px;
   margin-top: 50px;
 }
@@ -157,8 +157,6 @@ header a:after {
 #box4 {
   display: flex;
   margin-left: 200px;
-
-  position: absolute;
   bottom: 5px;
 }
 
