@@ -1,7 +1,9 @@
+/* Universal selector*/
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+/*root selector*/
 :root {
   --webkit-appearance: none;
   --moz-appearance: none;
@@ -14,11 +16,13 @@ header {
   width: 100%;
   padding-top: 10px;
 }
+/*profile picture*/
 img {
   margin-top: 27px;
   margin-left: 60px;
   border-radius: 40px;
 }
+/* CSS variable */
 h1 {
   background-color: var(--primary-color);
   width: 400px;
@@ -29,12 +33,13 @@ h1 {
   padding-right: 10px;
   margin-top: 10px;
 }
+/*navigation section*/
 nav {
   float: right;
   margin-top: -60px;
   margin-right: 35px;
 }
-
+/* header anchor elements */
 header a {
   color: var(--primary-color);
   text-decoration-thickness: 2px;
@@ -54,11 +59,13 @@ header a:after {
   border-width: 0 0 3px;
   border-style: solid;
 }
+/*main background cover image*/
 #cover-image {
   background-image: url("https://www.diettechcentral.com/wp-content/uploads/2021/01/DTC-blog-creating-a-portfolio.png");
   height: 200px;
   background-size: 100% 100%;
 }
+/*subtitle section*/
 #subtitle {
   display: flex;
   background-color: var(--primary-color);
@@ -71,6 +78,7 @@ header a:after {
   font-size: 30px;
   padding: 10px;
 }
+/*about me section*/
 .container1 {
   display: flex;
   width: 80%;
@@ -78,6 +86,7 @@ header a:after {
   margin-left: 100px;
   margin-right: 50px;
 }
+/*this is for the 3 titles - about me,work and contatc me*/
 .title {
   text-align: right;
   width: 150px;
@@ -87,14 +96,14 @@ header a:after {
   margin-bottom: 50px;
   margin-right: 100px;
 }
-
+/* description in p element in about me section*/
 #box1 {
   display: flex;
   margin-top: 40px;
   width: 80%;
   height: 100px;
 }
-
+/*work- projects section*/
 .container2 {
   display: flex;
   flex-wrap: wrap;
@@ -112,15 +121,16 @@ header a:after {
   background-image: url(https://image.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg);
   border: 5px solid var(--primary-color);
 }
-
+/* main project in the work section*/
 #box3-table {
   margin-left: 260px;
   width: 100%;
 }
-
+/*spacing the table boxes*/
 td:nth-child(1) {
   padding-right: 20px;
 }
+/*  secondary projects in the work section*/
 .box3 {
   display: flex;
   margin-top: 20px;
@@ -128,7 +138,7 @@ td:nth-child(1) {
   height: 100px;
   border: 5px solid var(--primary-color);
 }
-
+/*all projects placeholder images*/
 #project1-image {
   background-image: url(https://image.shutterstock.com/image-photo/project-manager-working-update-tasks-260nw-1756612595.jpg);
   height: 100px;
@@ -151,11 +161,13 @@ td:nth-child(1) {
   height: 100px;
   background-size: 100% 100%;
 }
+
 #project5-image {
   background-image: url(https://cdn.w600.comps.canstockphoto.com/learning-process-vector-clip-art_csp35689117.jpg);
   height: 100px;
   background-size: 100% 100%;
 }
+/*contact me section*/
 .container3 {
   display: flex;
   align-items: center;
@@ -165,7 +177,7 @@ td:nth-child(1) {
   bottom: 5px;
   margin-top: 50px;
 }
-
+/* navigation element in contact me section*/
 #box4 {
   display: flex;
   margin-left: 100px;
@@ -177,7 +189,7 @@ footer a {
   margin-right: 50px;
   font-size: 20px;
 }
-
+/*project-main header card*/
 .card1 {
   margin-top: 80px;
   text-align: center;
@@ -187,7 +199,7 @@ footer a {
   padding: 10px;
   background-color: var(--primary-color);
 }
-
+/* project header cards*/
 .card2 {
   margin-top: 10px;
   text-align: center;
