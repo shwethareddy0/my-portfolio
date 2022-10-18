@@ -151,9 +151,10 @@ header a:after {
 }
 
 #project2-image {
-  background-image: url(https://www.upgrad.com/blog/wp-content/uploads/2020/09/shutterstock_653127499.jpg);
+  background-image: url(../images/homr-logo.jpg);
   height: 100px;
-  background-size: 100% 100%;
+  background-size: 50% 100%;
+  background-position: right;
 }
 
 #project3-image {
