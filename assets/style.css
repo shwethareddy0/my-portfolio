@@ -158,9 +158,11 @@ header a:after {
 }
 
 #project3-image {
-  background-image: url(https://assets.tes.com/content-attachments/s3fs-public/styles/news_article_ml_x2/public/tes-resources-blog-images/tes-resources-captivating-computing-projects_3.jpg?h=a6967b5f&itok=O9aSBP0B);
+  background-image: url(../images/Get-Route.jpg);
+  background-color: rgb(234, 130, 12);
   height: 100px;
-  background-size: 100% 100%;
+  background-size: 50% 100%;
+  background-position: right;
 }
 #project4-image {
   background-image: url(https://img.lovepik.com/background/20211021/small/lovepik-hand-painted-cloud-computing-background-image_500531886.jpg);
